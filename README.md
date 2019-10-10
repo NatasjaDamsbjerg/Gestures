@@ -4,7 +4,7 @@ Jeg har valgt at arbjede med gestures gennem mouse x/y, som skal skrifte farven 
 
 For at få disse to til at spille sammen med gestures, har jeg ændret lidt i TriggerText:
 
-```python
+```java
 void oscEvent(OscMessage theOscMessage) {
  println("received message");
     if (theOscMessage.checkAddrPattern("/blue")) {
